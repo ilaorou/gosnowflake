@@ -2,11 +2,11 @@ package main
 import (
 	"fmt"
 	"time"
-	"github.com/tong"
+	"github.com/ilaorou/gosnowflake"
 )
 
 func main() {
-	tw, err := tong.NewIdWorker(1)
+	tw, err := snowflake.NewIdWorker(1)
 	if err!= nil {
 		fmt.Println(err)
 	}

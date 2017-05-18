@@ -1,4 +1,4 @@
-package tong
+package snowflake
 
 import (
 	"errors"
